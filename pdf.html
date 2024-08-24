@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head class="head">
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File Converter</title>
+</head>
+<body class="appContainer">
+    <h1 class="title">File Converter</h1>
+    <div class="filetypecontainer"> 
+        <h3 class="filetype"><a class="filetype" href="index.html"><-Back</a></h3>
+      </div>
+
+    <div class="filetypecontainer">
+        <form action="/action_page.php">
+            <input type="file" class="filetype" name="filename">
+            <input type="submit">
+          </form>
+          
+    </div>
+    <div class="filetypecontainer">
+        <h3 class="filetype">Convert to:</h3>
+        <select name="fileSelect" id="file-select">
+            <option value="select">Please choose an option</option>
+            <option value="docx">DOCX</option>
+            <option value="txt">TXT</option>
+            <option value="excel">Excel</option>
+          </select>
+    </div>
+</body>
+  
+<script src="script.js"></script>
+</html>

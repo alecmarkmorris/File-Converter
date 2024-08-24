@@ -13,9 +13,13 @@
 }
 
 .filetype{
-    color:#4faafd
+    color: #4faafd;
+    text-align: center;
 }
 .filetypecontainer{
     display: flex;
     justify-content: space-evenly;
+}
+a{
+    text-decoration: none;
 }
