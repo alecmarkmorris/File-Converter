@@ -1,0 +1,21 @@
+.appContainer{
+    width: 350px;
+    height: 250px;
+    text-align: center;
+    background-color:#0c0a32 ;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+.title{
+    color:#4faafd ;
+    padding-top: 5px;
+}
+
+.filetype{
+    color:#4faafd
+}
+.filetypecontainer{
+    display: flex;
+    justify-content: space-evenly;
+}
