@@ -6,5 +6,6 @@
     "action": {
       "default_popup": "index.html",
       "default_icon": "images/logo.png"
-    }
+    },
+    "host_permissions": ["https://python-api-jtjd.onrender.com/convert"]
   }
