@@ -2,14 +2,13 @@ const submitButton = document.getElementById("submit");
 const optionSelected = document.getElementById("file-select")
 
 
-
 submitButton.addEventListener("click", function(){
-        
     uploadFile()
-        alert(fileInput.value);
+    alert(fileInput.value);
+
+
 });
 
-///Create custom alert box so that users have to wait 10 seconds before getting file
 
 async function uploadFile() {
         const fileInput = document.getElementById('fileInput');
@@ -46,4 +45,3 @@ async function uploadFile() {
             console.error('Error:', error);
         }
     }
-    
