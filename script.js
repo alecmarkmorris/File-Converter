@@ -9,6 +9,7 @@ submitButton.addEventListener("click", function(){
         alert(fileInput.value);
 });
 
+///Create custom alert box so that users have to wait 10 seconds before getting file
 
 async function uploadFile() {
         const fileInput = document.getElementById('fileInput');
