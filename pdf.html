@@ -13,16 +13,15 @@
       </div>
 
     <div class="filetypecontainer">
-        <form action="/action_page.php">
-            <input type="file" class="filetype" name="filename">
-            <input type="submit">
+        <form action="">
+            <input id="fileInput" type="file" class="filetype" name="filename" accept=".pdf">
+            <input id="submit" type="submit">
           </form>
           
     </div>
     <div class="filetypecontainer">
         <h3 class="filetype">Convert to:</h3>
-        <select name="fileSelect" id="file-select">
-            <option value="select">Please choose an option</option>
+        <select  name="fileSelect" id="file-select">
             <option value="docx">DOCX</option>
             <option value="txt">TXT</option>
             <option value="excel">Excel</option>
