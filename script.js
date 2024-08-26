@@ -4,9 +4,11 @@ const optionSelected = document.getElementById("file-select")
 
 
 submitButton.addEventListener("click", function(){
-        uploadFile()
+        
+    uploadFile()
         alert(fileInput.value);
 });
+
 
 async function uploadFile() {
         const fileInput = document.getElementById('fileInput');

@@ -1,11 +1,11 @@
 {
-    "manifest_version": 3,
-    "name": "File Converter",
-    "description": "File Converter Extension",
-    "version": "1.0",
-    "action": {
-      "default_popup": "index.html",
-      "default_icon": "images/logo.png"
-    },
-    "host_permissions": ["https://python-api-jtjd.onrender.com/convert"]
-  }
+  "manifest_version": 3,
+  "name": "File Converter",
+  "description": "File Converter Extension",
+  "version": "1.0",
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": "images/logo.png"
+  },
+  "host_permissions": ["https://python-api-jtjd.onrender.com/PDF2DOCX"]
+}
